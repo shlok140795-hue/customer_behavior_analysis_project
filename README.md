@@ -1,49 +1,104 @@
-# customer_behavior_analysis_project
-using Python, Power BI and SQL sales analysis project
+# Customer Behavior Analysis Project
 
-Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+Using Python, SQL, and Power BI to perform end-to-end customer shopping behavior analysis and generate business insights.
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+# Project Overview
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+The goal of this project is to simulate a complete end-to-end data analytics workflow by transforming raw data into actionable business intelligence.
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+This project demonstrates:
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+✅ Data Preparation, Modeling & Exploratory Data Analysis (Python)
 
-Project Workflow
-Created Customer_Shopping_Behavior_Analysis.ipynb notebook
+- Cleaned and transformed raw customer shopping data
+- Performed exploratory data analysis (EDA)
+- Identified trends, patterns, and data inconsistencies
 
-This project includes:
+✅ Data Analysis (SQL)
 
-Data Import
+- Loaded cleaned data into PostgreSQL
+- Created SQL queries to answer business questions
+- Analyzed customer segments, loyalty patterns, and purchasing behavior
 
-Data exploration
+✅ Visualization & Insights (Power BI)
 
-Data cleaning
+- Built an interactive Power BI dashboard
+- Visualized customer trends and sales insights
+- Enabled data-driven decision-making through interactive reporting
 
-Connection to SQL Database
+✅ Report & Presentation
 
-Loaded the data from Python notebook into PostgreSQL 
+- Prepared project documentation
+- Summarized business insights and recommendations
+- Created presentation for stakeholders
 
-Created a database in SQL
+# Tools Used
 
-Python code to load data into SQL database
+- Python
+- SQL (PostgreSQL)
+- Power BI
+- Jupyter Notebook
 
-Created customer_behavior_sql_queries.sql
+# Project Workflow
 
-Answered Business Questions using SQL Queries
+## 1. Data Preparation in Python
 
-Connected the SQL Database to Power BI
+Created:
+`Customer_Shopping_Behavior_Analysis.ipynb`
 
-Open customer_behavior_dashboard.pbix
+Tasks performed:
+- Data import
+- Data exploration
+- Data cleaning
+- Data transformation
 
-Created interactive dashboard in Power BI
+## 2. SQL Database Integration
 
-Created Project Report and Presentation
+- Connected Python to PostgreSQL
+- Created SQL database
+- Loaded cleaned dataset into SQL database
+- Wrote SQL queries for business analysis
 
-Create project report
+Created:
+`customer_behavior_sql_queries.sql`
 
-Build presentation deck using Gamma AI
+## 3. Business Analysis
 
+Used SQL queries to answer questions related to:
+- Customer purchasing patterns
+- Customer loyalty
+- Product preferences
+- Sales trends
+- Customer segmentation
+
+## 4. Dashboard Development
+
+- Connected PostgreSQL database to Power BI
+- Created interactive dashboard
+- Built KPI cards, charts, filters, and slicers
+
+
+# Files
+
+- `dashboard/` → Power BI dashboard
+- `sql/` → SQL queries
+- `notebooks/` → Python notebooks
+- `presentation/` → Project report and presentation
+- `visuals/` → Dashboard screenshots
+
+# Dashboard Preview
+<img width="2022" height="1107" alt="customer_behavior_analysis_dashboard" src="https://github.com/user-attachments/assets/6d27ddfb-0035-418f-a86d-761271f0f977" />
+
+# Key Insights
+
+- Identified top-performing customer segments
+- Analyzed customer purchasing behavior
+- Found patterns in product preferences
+- Improved understanding of customer loyalty trends
+
+
+# Business Recommendations
+
+- Focus marketing efforts on high-value customer groups
+- Improve retention strategies for low-engagement customers
+- Optimize product offerings based on purchasing trends
